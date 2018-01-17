@@ -2,14 +2,11 @@ package com.zjr.technologytest;
 
 import com.zjr.technologytest.entity.Student;
 import com.zjr.technologytest.util.JsonUtils;
-import com.zjr.technologytest.util.RedisUtil;
-import org.assertj.core.util.Lists;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.SetOperations;
 import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.test.context.junit4.SpringRunner;
